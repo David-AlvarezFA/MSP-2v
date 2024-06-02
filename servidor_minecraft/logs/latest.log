@@ -1,69 +1,40 @@
-[21:37:32] [ServerMain/ERROR]: Failed to load properties from file: server.properties
-java.nio.file.NoSuchFileException: server.properties
-	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
-	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
-	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
-	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:431) ~[?:?]
-	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[?:?]
-	at java.base/java.nio.file.Files.newInputStream(Files.java:159) ~[?:?]
-	at aqf.b(SourceFile:62) ~[server-1.20.6.jar:?]
-	at aqc.a(SourceFile:140) ~[server-1.20.6.jar:?]
-	at aqd.<init>(SourceFile:12) ~[server-1.20.6.jar:?]
-	at net.minecraft.server.Main.main(SourceFile:114) ~[server-1.20.6.jar:?]
-	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[21:37:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:37:34] [ServerMain/INFO]: No existing world data, creating new world
-[21:37:35] [ServerMain/INFO]: Loaded 1175 recipes
-[21:37:35] [ServerMain/INFO]: Loaded 1276 advancements
-[21:37:36] [Server thread/INFO]: Starting minecraft server version 1.20.6
-[21:37:36] [Server thread/INFO]: Loading properties
-[21:37:36] [Server thread/INFO]: Default game type: SURVIVAL
-[21:37:36] [Server thread/INFO]: Generating keypair
-[21:37:36] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:37:36] [Server thread/INFO]: Using epoll channel type
-[21:37:36] [Server thread/INFO]: Preparing level "world"
-[21:37:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:37:48] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[21:37:48] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[21:37:49] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[21:37:49] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[21:37:50] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[21:37:50] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[21:37:51] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[21:37:51] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[21:37:52] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[21:37:52] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[21:37:53] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[21:37:53] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[21:37:54] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[21:37:54] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[21:37:55] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[21:37:55] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[21:37:56] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[21:37:56] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[21:37:57] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[21:37:57] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[21:37:58] [Worker-Main-2/INFO]: Preparing spawn area: 18%
-[21:37:58] [Server thread/INFO]: Time elapsed: 10399 ms
-[21:37:58] [Server thread/INFO]: Done (22.084s)! For help, type "help"
-[21:38:26] [User Authenticator #1/INFO]: UUID of player JungleShade is 93269235-9148-4f58-a7e1-e315ecc56e58
-[21:38:28] [Server thread/INFO]: JungleShade[/[0:0:0:0:0:0:0:1%0]:52340] logged in with entity id 30 at (2.5, 76.0, 8.5)
-[21:38:28] [Server thread/INFO]: JungleShade joined the game
-[21:38:53] [Server thread/INFO]: Made JungleShade a server operator
-[21:38:56] [Server thread/INFO]: [JungleShade: Set own game mode to Creative Mode]
-[21:40:39] [Server thread/INFO]: [JungleShade: Stopping the server]
-[21:40:39] [Server thread/INFO]: Stopping server
-[21:40:39] [Server thread/INFO]: Saving players
-[21:40:39] [Server thread/INFO]: JungleShade lost connection: Server closed
-[21:40:39] [Server thread/INFO]: JungleShade left the game
-[21:40:39] [Server thread/INFO]: Saving worlds
-[21:40:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:41:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[21:41:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[21:41:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:41:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:41:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:41:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:43:44] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:43:46] [ServerMain/INFO]: Loaded 1175 recipes
+[21:43:47] [ServerMain/INFO]: Loaded 1276 advancements
+[21:43:47] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[21:43:47] [Server thread/INFO]: Loading properties
+[21:43:47] [Server thread/INFO]: Default game type: SURVIVAL
+[21:43:47] [Server thread/INFO]: Generating keypair
+[21:43:47] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:43:47] [Server thread/INFO]: Using epoll channel type
+[21:43:48] [Server thread/INFO]: Preparing level "world"
+[21:43:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:43:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:43:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:43:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:43:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:43:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:43:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:43:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:43:58] [Server thread/INFO]: Time elapsed: 3474 ms
+[21:43:58] [Server thread/INFO]: Done (10.141s)! For help, type "help"
+[21:45:13] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[21:45:13] [Server thread/INFO]: restart<--[HERE]
+[21:45:18] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[21:45:18] [Server thread/INFO]: restart<--[HERE]
+[21:45:31] [User Authenticator #1/INFO]: UUID of player JungleShade is 93269235-9148-4f58-a7e1-e315ecc56e58
+[21:45:32] [Server thread/INFO]: JungleShade[/[0:0:0:0:0:0:0:1%0]:34200] logged in with entity id 67 at (-9.221480853820923, 73.0, -16.862384060937472)
+[21:45:33] [Server thread/INFO]: JungleShade joined the game
+[21:45:45] [Server thread/INFO]: [JungleShade: Stopping the server]
+[21:45:45] [Server thread/INFO]: Stopping server
+[21:45:45] [Server thread/INFO]: Saving players
+[21:45:45] [Server thread/INFO]: JungleShade lost connection: Server closed
+[21:45:45] [Server thread/INFO]: JungleShade left the game
+[21:45:45] [Server thread/INFO]: Saving worlds
+[21:45:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:45:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21:45:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21:45:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:45:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:45:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:45:55] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
