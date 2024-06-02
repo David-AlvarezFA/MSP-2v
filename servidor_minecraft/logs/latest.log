@@ -1,67 +1,748 @@
-[22:14:28] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:14:34] [ServerMain/INFO]: Loaded 1175 recipes
-[22:14:34] [ServerMain/INFO]: Loaded 1276 advancements
-[22:14:34] [Server thread/INFO]: Starting minecraft server version 1.20.6
-[22:14:34] [Server thread/INFO]: Loading properties
-[22:14:35] [Server thread/INFO]: This server is running Paper version 1.20.6-130-master@5d8e53d (2024-06-01T14:32:53Z) (Implementing API version 1.20.6-R0.1-SNAPSHOT)
-[22:14:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:14:36] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:14:37] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[22:23:15] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:23:18] [ServerMain/INFO]: Loaded 1175 recipes
+[22:23:18] [ServerMain/INFO]: Loaded 1276 advancements
+[22:23:18] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[22:23:18] [Server thread/INFO]: Loading properties
+[22:23:18] [Server thread/INFO]: This server is running Paper version 1.20.6-130-master@5d8e53d (2024-06-01T14:32:53Z) (Implementing API version 1.20.6-R0.1-SNAPSHOT)
+[22:23:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:23:19] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:23:20] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[22:14:37] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[22:14:37] [Server thread/INFO]: Default game type: SURVIVAL
-[22:14:37] [Server thread/INFO]: Generating keypair
-[22:14:37] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:14:37] [Server thread/INFO]: Using epoll channel type
-[22:14:38] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[22:14:38] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[22:14:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:14:38] [Server thread/INFO]: Preparing level "world"
-[22:14:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:14:41] [Server thread/INFO]: Time elapsed: 2374 ms
-[22:14:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[22:14:41] [Server thread/INFO]: Time elapsed: 591 ms
-[22:14:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[22:14:42] [Server thread/INFO]: Time elapsed: 319 ms
-[22:14:42] [Server thread/INFO]: Running delayed init tasks
-[22:14:42] [Server thread/INFO]: Done (7.526s)! For help, type "help"
-[22:14:42] [Server thread/INFO]: Timings Reset
-[22:16:14] [Server thread/INFO]: Whitelist is already turned off
-[22:16:17] [Server thread/INFO]: Whitelist is now turned on
-[22:16:23] [Server thread/INFO]: Added JungleShade to the whitelist
-[22:16:54] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[22:16:54] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[22:16:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:16:54] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:16:54] [Server thread/INFO]: Loaded 1175 recipes
-[22:16:55] [Server thread/INFO]: Loaded 1276 advancements
-[22:16:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:16:55] [Server thread/INFO]: CONSOLE: Reload complete.
-[22:16:55] [Server thread/INFO]: Timings Reset
-[22:21:47] [Server thread/INFO]: Stopping the server
-[22:21:47] [Server thread/INFO]: Stopping server
-[22:21:47] [Server thread/INFO]: Saving players
-[22:21:47] [Server thread/INFO]: Saving worlds
-[22:21:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:21:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[22:21:47] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[22:21:47] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[22:21:48] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 5 entity chunks, 0 poi chunks in world 'world' in 0.01s
-[22:21:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:21:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[22:21:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[22:21:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[22:21:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[22:21:48] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 4 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[22:21:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:21:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[22:21:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[22:21:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[22:21:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[22:21:48] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[22:21:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:21:48] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22:21:48] [Server thread/INFO]: Flushing Chunk IO
-[22:21:48] [Server thread/INFO]: Closing Thread Pool
-[22:21:48] [Server thread/INFO]: Closing Server
+[22:23:20] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[22:23:21] [Server thread/INFO]: Default game type: SURVIVAL
+[22:23:21] [Server thread/INFO]: Generating keypair
+[22:23:21] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:23:21] [Server thread/INFO]: Using epoll channel type
+[22:23:21] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[22:23:21] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[22:23:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:23:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:23:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:23:21] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:23:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:23:21] [Server thread/INFO]: Preparing level "world"
+[22:23:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:23:23] [Server thread/INFO]: Time elapsed: 1831 ms
+[22:23:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:23:24] [Server thread/INFO]: Time elapsed: 317 ms
+[22:23:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:23:24] [Server thread/INFO]: Time elapsed: 228 ms
+[22:23:24] [Server thread/INFO]: Running delayed init tasks
+[22:23:24] [Server thread/INFO]: Done (6.012s)! For help, type "help"
+[22:23:24] [Server thread/INFO]: Timings Reset
+[22:23:26] [User Authenticator #0/INFO]: UUID of player JungleShade is 05106e2c-02c7-3e17-9385-b69ece767017
+[22:23:26] [Server thread/INFO]: Disconnecting JungleShade (/[0:0:0:0:0:0:0:1%0]:34000): You are not whitelisted on this server!
+[22:23:26] [Server thread/INFO]: JungleShade (/[0:0:0:0:0:0:0:1%0]:34000) lost connection: You are not whitelisted on this server!
+[22:23:34] [Server thread/INFO]: Whitelist is now turned off
+[22:23:36] [User Authenticator #0/INFO]: UUID of player JungleShade is 05106e2c-02c7-3e17-9385-b69ece767017
+[22:23:38] [Server thread/INFO]: JungleShade joined the game
+[22:23:38] [Server thread/INFO]: JungleShade[/[0:0:0:0:0:0:0:1%0]:43804] logged in with entity id 35 at ([world]5.5, 67.0, 5.5)
+[22:23:43] [Server thread/INFO]: Made JungleShade a server operator
+[22:23:46] [Server thread/INFO]: JungleShade issued server command: /gamemode creative
+[22:23:46] [Server thread/INFO]: [JungleShade: Set own game mode to Creative Mode]
+[22:23:58] [Server thread/INFO]: JungleShade issued server command: /ping
+[22:24:01] [Server thread/INFO]: JungleShade issued server command: /tick
+[22:25:18] [Server thread/INFO]: JungleShade issued server command: /locate structure minecraft:village_savanna
+[22:25:19] [Server thread/INFO]: Locating element minecraft:village_savanna took 988 ms
+[22:25:20] [Server thread/INFO]: JungleShade issued server command: /locate structure minecraft:village_plains
+[22:25:22] [Server thread/INFO]: Locating element minecraft:village_plains took 1078 ms
+[22:25:24] [Server thread/INFO]: JungleShade issued server command: /tp @s 240 ~ 576
+[22:25:24] [Server thread/INFO]: [JungleShade: Teleported JungleShade to 240.500000, 64.000000, 576.500000]
+[22:25:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3313ms or 66 ticks behind
+[22:25:33] [Server thread/INFO]: JungleShade issued server command: /tp @s 240 ~ 576
+[22:25:33] [Server thread/INFO]: [JungleShade: Teleported JungleShade to 240.500000, 64.000000, 576.500000]
+[22:26:16] [Server thread/INFO]: JungleShade issued server command: /setworldspawn
+[22:26:16] [Server thread/INFO]: [JungleShade: Set the world spawn point to 247, 62, 571 [0.0]]
+[22:29:35] [Server thread/INFO]: JungleShade issued server command: /reload confirm
+[22:29:35] [Server thread/INFO]: JungleShade: Please note that this command is not supported and may cause issues when using some plugins.
+[22:29:35] [Server thread/INFO]: JungleShade: If you encounter any issues please use the /stop command to restart your server.
+[22:29:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:29:35] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:29:36] [Server thread/INFO]: Loaded 1175 recipes
+[22:29:36] [Server thread/INFO]: Loaded 1276 advancements
+[22:29:36] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/floodgate-spigot.jar'...
+[22:29:37] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinRestorer.jar'...
+[22:29:40] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinRestorer.jar' in 2803ms.
+[22:29:42] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/floodgate-spigot.jar' in 5791ms.
+[22:29:43] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b107-c4a4487)
+[22:29:45] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[22:29:45] [Server thread/INFO]: [floodgate] Took 2,203ms to boot Floodgate
+[22:29:45] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.0.13
+[22:29:45] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.3.1-SNAPSHOT
+[22:29:45] [Server thread/WARN]: [Geyser-Spigot] Missing locale: en_
+[22:29:48] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[22:29:48] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[22:29:48] [Server thread/INFO]: [TabTPS] Loading server plugin TabTPS v1.3.23
+[22:29:48] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.10
+[22:29:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:29:48] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.0.13
+[22:29:49] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.6.
+[22:29:49] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[22:29:49] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[22:29:49] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b107-c4a4487)
+[22:29:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:29:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[22:29:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[22:29:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[22:29:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[22:29:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[22:29:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:29:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.0.13
+[22:29:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 8e4c6e2
+[22:29:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[22:29:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:29:50] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.3.1-SNAPSHOT
+[22:29:50] [Server thread/INFO]: [TabTPS] Enabling TabTPS v1.3.23
+[22:29:51] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.10
+[22:29:52] [Paper Async Command Builder Thread Pool - 1/ERROR]: Caught previously unhandled exception :
+[22:29:52] [Paper Async Command Builder Thread Pool - 1/ERROR]: Paper Async Command Builder Thread Pool - 1
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:542) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:507) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:480) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[22:29:52] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[22:29:52] [Server thread/INFO]: [Geyser-Spigot] 
+[22:29:52] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.3.1-SNAPSHOT (git-master-66f30a2)
+[22:29:52] [Server thread/INFO]: [Geyser-Spigot] 
+[22:29:52] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[22:30:01] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[22:30:01] [Server thread/INFO]: [Geyser-Spigot] Done (9.592s)! Run /geyser help for help!
+[22:30:01] [Thread-13/WARN]: [Geyser-Spigot] Missing MC locale file: en_us
+[22:30:01] [Thread-18/INFO]: [Geyser-Spigot] Downloading Minecraft JAR to extract required files, please wait... (this may take some time depending on the speed of your internet connection)
+[22:30:01] [Server thread/INFO]: JungleShade: Reload complete.
+[22:30:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 26182ms or 523 ticks behind
+[22:30:01] [Server thread/INFO]: Timings Reset
+[22:30:03] [Thread-18/INFO]: [Geyser-Spigot] Minecraft JAR has been successfully downloaded and loaded!
+[22:30:45] [Server thread/INFO]: JungleShade issued server command: /tps
+[22:30:51] [Server thread/INFO]: JungleShade issued server command: /msg
+[22:30:53] [Server thread/INFO]: JungleShade issued server command: /mspt
+[22:31:00] [Server thread/INFO]: JungleShade issued server command: /tps
+[22:31:05] [Server thread/INFO]: JungleShade issued server command: /tabtps:ping
+[22:31:11] [Server thread/INFO]: JungleShade issued server command: /tabtps:tabtps
+[22:31:17] [Server thread/INFO]: JungleShade issued server command: /tabtps:tabtps toggle bossbar
+[22:31:43] [Server thread/INFO]: JungleShade issued server command: /tabtps:tabtps toggle actionbar
+[22:31:57] [Server thread/INFO]: JungleShade issued server command: /tabtps:tabtps toggle bossbar
+[22:32:05] [Server thread/INFO]: JungleShade issued server command: /skin set JungleShade
+[22:34:02] [Server thread/INFO]: JungleShade issued server command: /reload confirm
+[22:34:02] [Server thread/INFO]: JungleShade: Please note that this command is not supported and may cause issues when using some plugins.
+[22:34:02] [Server thread/INFO]: JungleShade: If you encounter any issues please use the /stop command to restart your server.
+[22:34:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:34:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:34:02] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.10
+[22:34:02] [Server thread/INFO]: [TabTPS] Disabling TabTPS v1.3.23
+[22:34:02] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.3.1-SNAPSHOT
+[22:34:02] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[22:34:02] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[22:34:02] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.0.13
+[22:34:02] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b107-c4a4487)
+[22:34:02] [WebSocketConnectReadThread-101/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[22:34:02] [Server thread/INFO]: Loaded 1175 recipes
+[22:34:02] [Server thread/INFO]: Loaded 1276 advancements
+[22:34:03] [Paper Async Command Builder Thread Pool - 3/ERROR]: Caught previously unhandled exception :
+[22:34:03] [Paper Async Command Builder Thread Pool - 3/ERROR]: Paper Async Command Builder Thread Pool - 3
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:542) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:501) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:480) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[22:34:03] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b107-c4a4487)
+[22:34:04] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[22:34:04] [Server thread/INFO]: [floodgate] Took 1,203ms to boot Floodgate
+[22:34:04] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.0.13
+[22:34:04] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.3.1-SNAPSHOT
+[22:34:04] [Server thread/WARN]: [Geyser-Spigot] Missing locale: en_
+[22:34:05] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[22:34:05] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[22:34:05] [Server thread/INFO]: [TabTPS] Loading server plugin TabTPS v1.3.23
+[22:34:05] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.10
+[22:34:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:34:05] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.0.13
+[22:34:07] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.6.
+[22:34:07] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[22:34:07] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[22:34:07] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b107-c4a4487)
+[22:34:07] [Server thread/WARN]: java.lang.IllegalArgumentException: Duplicate handler name: floodgate-init
+[22:34:07] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.checkDuplicateName(DefaultChannelPipeline.java:1055)
+[22:34:07] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.filterName(DefaultChannelPipeline.java:284)
+[22:34:07] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:160)
+[22:34:07] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:152)
+[22:34:07] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.injectClient(SpigotInjector.java:110)
+[22:34:07] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.inject(SpigotInjector.java:95)
+[22:34:07] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.FloodgatePlatform.enable(FloodgatePlatform.java:71)
+[22:34:07] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.SpigotPlugin.onEnable(SpigotPlugin.java:71)
+[22:34:07] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:287)
+[22:34:07] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[22:34:07] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[22:34:07] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:519)
+[22:34:07] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:604)
+[22:34:07] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:553)
+[22:34:07] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1094)
+[22:34:07] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:1023)
+[22:34:07] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59)
+[22:34:07] [Server thread/WARN]: 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91)
+[22:34:07] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[22:34:07] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
+[22:34:07] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
+[22:34:07] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[22:34:07] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[22:34:07] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
+[22:34:07] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448)
+[22:34:07] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:355)
+[22:34:07] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:342)
+[22:34:07] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:337)
+[22:34:07] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2202)
+[22:34:07] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2176)
+[22:34:07] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[22:34:07] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151)
+[22:34:07] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[22:34:07] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1511)
+[22:34:07] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:195)
+[22:34:07] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125)
+[22:34:07] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1488)
+[22:34:07] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1411)
+[22:34:07] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135)
+[22:34:07] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1377)
+[22:34:07] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1238)
+[22:34:07] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323)
+[22:34:07] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[22:34:07] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:34:07] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
+[22:34:07] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[22:34:07] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |------------------|
+[22:34:07] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[22:34:07] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
+[22:34:07] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:34:07] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Version: 15.0.13
+[22:34:07] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Commit: 8e4c6e2
+[22:34:07] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     This is the latest version!
+[22:34:07] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:34:07] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.3.1-SNAPSHOT
+[22:34:07] [Server thread/INFO]: [TabTPS] Enabling TabTPS v1.3.23
+[22:34:08] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.10
+[22:34:09] [Paper Async Command Builder Thread Pool - 4/ERROR]: Caught previously unhandled exception :
+[22:34:09] [Paper Async Command Builder Thread Pool - 4/ERROR]: Paper Async Command Builder Thread Pool - 4
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:542) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:507) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:480) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[22:34:09] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[22:34:09] [Server thread/INFO]: [Geyser-Spigot] 
+[22:34:09] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.3.1-SNAPSHOT (git-master-66f30a2)
+[22:34:09] [Server thread/INFO]: [Geyser-Spigot] 
+[22:34:09] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[22:34:16] [epollEventLoopGroup-9-1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:40937
+[22:34:16] [Server thread/INFO]: [Geyser-Spigot] Done (7.159s)! Run /geyser help for help!
+[22:34:16] [Server thread/INFO]: JungleShade: Reload complete.
+[22:34:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14240ms or 284 ticks behind
+[22:34:16] [Server thread/INFO]: Timings Reset
+[22:35:22] [Server thread/INFO]: JungleShade issued server command: /reload confirm
+[22:35:22] [Server thread/INFO]: JungleShade: Please note that this command is not supported and may cause issues when using some plugins.
+[22:35:22] [Server thread/INFO]: JungleShade: If you encounter any issues please use the /stop command to restart your server.
+[22:35:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:35:22] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:35:22] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.10
+[22:35:22] [Server thread/INFO]: [TabTPS] Disabling TabTPS v1.3.23
+[22:35:22] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.3.1-SNAPSHOT
+[22:35:22] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[22:35:22] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[22:35:22] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.0.13
+[22:35:22] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b107-c4a4487)
+[22:35:22] [WebSocketConnectReadThread-167/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[22:35:22] [Server thread/INFO]: Loaded 1175 recipes
+[22:35:23] [Server thread/INFO]: Loaded 1276 advancements
+[22:35:23] [Paper Async Command Builder Thread Pool - 6/ERROR]: Caught previously unhandled exception :
+[22:35:23] [Paper Async Command Builder Thread Pool - 6/ERROR]: Paper Async Command Builder Thread Pool - 6
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:542) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:501) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:480) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[22:35:23] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b107-c4a4487)
+[22:35:24] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[22:35:24] [Server thread/INFO]: [floodgate] Took 880ms to boot Floodgate
+[22:35:24] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.0.13
+[22:35:24] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.3.1-SNAPSHOT
+[22:35:24] [Server thread/WARN]: [Geyser-Spigot] Missing locale: en_
+[22:35:25] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[22:35:25] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[22:35:25] [Server thread/INFO]: [TabTPS] Loading server plugin TabTPS v1.3.23
+[22:35:25] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.10
+[22:35:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:35:25] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.0.13
+[22:35:26] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.6.
+[22:35:26] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[22:35:26] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[22:35:26] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b107-c4a4487)
+[22:35:26] [Server thread/WARN]: java.lang.IllegalArgumentException: Duplicate handler name: floodgate-init
+[22:35:26] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.checkDuplicateName(DefaultChannelPipeline.java:1055)
+[22:35:26] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.filterName(DefaultChannelPipeline.java:284)
+[22:35:26] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:160)
+[22:35:26] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:152)
+[22:35:26] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.injectClient(SpigotInjector.java:110)
+[22:35:26] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.inject(SpigotInjector.java:95)
+[22:35:26] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.FloodgatePlatform.enable(FloodgatePlatform.java:71)
+[22:35:26] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.SpigotPlugin.onEnable(SpigotPlugin.java:71)
+[22:35:26] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:287)
+[22:35:26] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[22:35:26] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[22:35:26] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:519)
+[22:35:26] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:604)
+[22:35:26] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:553)
+[22:35:26] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1094)
+[22:35:26] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:1023)
+[22:35:26] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59)
+[22:35:26] [Server thread/WARN]: 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91)
+[22:35:26] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[22:35:26] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
+[22:35:26] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
+[22:35:26] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[22:35:26] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[22:35:26] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
+[22:35:26] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448)
+[22:35:26] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:355)
+[22:35:26] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:342)
+[22:35:26] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:337)
+[22:35:26] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2202)
+[22:35:26] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2176)
+[22:35:26] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[22:35:26] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151)
+[22:35:26] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[22:35:26] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1511)
+[22:35:26] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:195)
+[22:35:26] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125)
+[22:35:26] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1488)
+[22:35:26] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1411)
+[22:35:26] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135)
+[22:35:26] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1377)
+[22:35:26] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1238)
+[22:35:26] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323)
+[22:35:26] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[22:35:26] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:35:26] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[22:35:26] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[22:35:26] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |------------------|
+[22:35:26] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[22:35:26] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[22:35:26] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:35:26] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.0.13
+[22:35:26] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: 8e4c6e2
+[22:35:26] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     This is the latest version!
+[22:35:26] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:35:26] [Folia Async Scheduler Thread #3/ERROR]: [SkinsRestorer] Error getting Mojang UUID
+[22:35:27] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.3.1-SNAPSHOT
+[22:35:27] [Server thread/INFO]: [TabTPS] Enabling TabTPS v1.3.23
+[22:35:28] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.10
+[22:35:28] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[22:35:28] [Paper Async Command Builder Thread Pool - 7/ERROR]: Caught previously unhandled exception :
+[22:35:28] [Paper Async Command Builder Thread Pool - 7/ERROR]: Paper Async Command Builder Thread Pool - 7
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:542) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:507) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:480) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[22:35:28] [Server thread/INFO]: [Geyser-Spigot] 
+[22:35:28] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.3.1-SNAPSHOT (git-master-66f30a2)
+[22:35:28] [Server thread/INFO]: [Geyser-Spigot] 
+[22:35:28] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[22:35:35] [epollEventLoopGroup-15-1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:40937
+[22:35:35] [Server thread/INFO]: [Geyser-Spigot] Done (6.953s)! Run /geyser help for help!
+[22:35:35] [Server thread/INFO]: JungleShade: Reload complete.
+[22:35:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13026ms or 260 ticks behind
+[22:35:35] [Server thread/INFO]: Timings Reset
+[22:38:16] [Server thread/INFO]: JungleShade issued server command: /ram
+[22:38:41] [Server thread/INFO]: JungleShade issued server command: /tabtps:tabtps reload
+[22:39:56] [Server thread/INFO]: JungleShade issued server command: /geyser help
+[22:40:03] [Server thread/INFO]: JungleShade issued server command: /geyser connectiontest serveo.net:40937
+[22:40:05] [Netty Epoll Server IO #0/WARN]: java.lang.IllegalStateException: zip file closed
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:516)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:471)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:209)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.player.FloodgateHandshakeHandler.separateHostname(FloodgateHandshakeHandler.java:118)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.addon.data.CommonDataHandler.handle(CommonDataHandler.java:71)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.addon.data.SpigotDataHandler.channelRead(SpigotDataHandler.java:140)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.addon.data.CommonDataHandler.channelRead(CommonDataHandler.java:178)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:534)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at net.minecraft.server.network.LegacyQueryHandler.channelRead(LegacyQueryHandler.java:114)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.handler.flush.FlushConsolidationHandler.channelRead(FlushConsolidationHandler.java:152)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[22:40:05] [Netty Epoll Server IO #0/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[22:40:13] [Thread-44/WARN]: [Geyser-Spigot] Error while trying to check your connection!
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:489) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:483) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1461) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1066) ~[?:?]
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:291) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:347) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:827) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:759) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1690) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223) ~[?:?]
+	at Geyser-Spigot.jar/org.geysermc.geyser.util.WebUtils.getJson(WebUtils.java:79) ~[Geyser-Spigot.jar:?]
+	at Geyser-Spigot.jar/org.geysermc.geyser.command.defaults.ConnectionTestCommand.lambda$execute$0(ConnectionTestCommand.java:185) ~[Geyser-Spigot.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[22:43:25] [Server thread/INFO]: JungleShade issued server command: /mspt
+[22:44:16] [Server thread/INFO]: JungleShade issued server command: /ram
+[22:44:20] [Server thread/INFO]: JungleShade issued server command: /random
+[22:44:23] [Server thread/INFO]: JungleShade issued server command: /random roll
+[22:44:28] [Server thread/INFO]: JungleShade issued server command: /random roll 1 minecraft:blocks/carrots
+[22:44:32] [Server thread/INFO]: JungleShade issued server command: /random roll 2 minecraft:blocks/carrots
+[22:44:36] [Server thread/INFO]: JungleShade issued server command: /random roll 4 minecraft:blocks/carrots
+[22:44:42] [Server thread/INFO]: JungleShade issued server command: /random roll 4 minecraft:blocks/seagrass
+[22:44:46] [Server thread/INFO]: JungleShade issued server command: /random roll 0.5 minecraft:blocks/seagrass
+[22:44:50] [Server thread/INFO]: JungleShade issued server command: /random roll 0 minecraft:blocks/seagrass
+[22:44:54] [Server thread/INFO]: JungleShade issued server command: /random roll 2 minecraft:blocks/seagrass
+[22:46:36] [Server thread/INFO]: JungleShade issued server command: /reload confirm
+[22:46:36] [Server thread/INFO]: JungleShade: Please note that this command is not supported and may cause issues when using some plugins.
+[22:46:36] [Server thread/INFO]: JungleShade: If you encounter any issues please use the /stop command to restart your server.
+[22:46:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:46:36] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:46:36] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.10
+[22:46:36] [Server thread/INFO]: [TabTPS] Disabling TabTPS v1.3.23
+[22:46:36] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.3.1-SNAPSHOT
+[22:46:36] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[22:46:36] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[22:46:36] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.0.13
+[22:46:36] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b107-c4a4487)
+[22:46:36] [WebSocketConnectReadThread-222/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[22:46:36] [Server thread/INFO]: Loaded 1175 recipes
+[22:46:36] [Server thread/INFO]: Loaded 1276 advancements
+[22:46:37] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b107-c4a4487)
+[22:46:38] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[22:46:38] [Server thread/INFO]: [floodgate] Took 820ms to boot Floodgate
+[22:46:38] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.0.13
+[22:46:38] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.3.1-SNAPSHOT
+[22:46:38] [Server thread/WARN]: [Geyser-Spigot] Missing locale: en_
+[22:46:39] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[22:46:39] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[22:46:39] [Server thread/INFO]: [TabTPS] Loading server plugin TabTPS v1.3.23
+[22:46:39] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.10
+[22:46:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:46:39] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.0.13
+[22:46:40] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.6.
+[22:46:40] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[22:46:40] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[22:46:40] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b107-c4a4487)
+[22:46:40] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:46:40] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
+[22:46:40] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[22:46:40] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |------------------|
+[22:46:40] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[22:46:40] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
+[22:46:40] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:46:40] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Version: 15.0.13
+[22:46:40] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Commit: 8e4c6e2
+[22:46:40] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     This is the latest version!
+[22:46:40] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:46:40] [Server thread/WARN]: java.lang.IllegalArgumentException: Duplicate handler name: floodgate-init
+[22:46:40] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.checkDuplicateName(DefaultChannelPipeline.java:1055)
+[22:46:40] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.filterName(DefaultChannelPipeline.java:284)
+[22:46:40] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:160)
+[22:46:40] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:152)
+[22:46:40] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.injectClient(SpigotInjector.java:110)
+[22:46:40] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.inject(SpigotInjector.java:95)
+[22:46:40] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.FloodgatePlatform.enable(FloodgatePlatform.java:71)
+[22:46:40] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.SpigotPlugin.onEnable(SpigotPlugin.java:71)
+[22:46:40] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:287)
+[22:46:40] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[22:46:40] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[22:46:40] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:519)
+[22:46:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:604)
+[22:46:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:553)
+[22:46:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1094)
+[22:46:40] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:1023)
+[22:46:40] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59)
+[22:46:40] [Server thread/WARN]: 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91)
+[22:46:40] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[22:46:40] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
+[22:46:40] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
+[22:46:40] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[22:46:40] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[22:46:40] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
+[22:46:40] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448)
+[22:46:40] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:355)
+[22:46:40] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:342)
+[22:46:40] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:337)
+[22:46:40] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2202)
+[22:46:40] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2176)
+[22:46:40] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[22:46:40] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151)
+[22:46:40] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[22:46:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1511)
+[22:46:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:195)
+[22:46:40] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125)
+[22:46:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1488)
+[22:46:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1411)
+[22:46:40] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135)
+[22:46:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1377)
+[22:46:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1238)
+[22:46:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323)
+[22:46:40] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[22:46:40] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.3.1-SNAPSHOT
+[22:46:40] [Server thread/INFO]: [TabTPS] Enabling TabTPS v1.3.23
+[22:46:41] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.10
+[22:46:41] [Paper Async Command Builder Thread Pool - 10/ERROR]: Caught previously unhandled exception :
+[22:46:41] [Paper Async Command Builder Thread Pool - 10/ERROR]: Paper Async Command Builder Thread Pool - 10
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:542) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:501) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:480) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[22:46:41] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[22:46:41] [Server thread/INFO]: [Geyser-Spigot] 
+[22:46:41] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.3.1-SNAPSHOT (git-master-66f30a2)
+[22:46:41] [Server thread/INFO]: [Geyser-Spigot] 
+[22:46:41] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[22:46:49] [epollEventLoopGroup-21-2/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:25565
+[22:46:50] [Server thread/INFO]: [Geyser-Spigot] Done (8.091s)! Run /geyser help for help!
+[22:46:50] [Server thread/INFO]: JungleShade: Reload complete.
+[22:46:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13776ms or 275 ticks behind
+[22:46:50] [Server thread/INFO]: Timings Reset
+[22:49:29] [Server thread/INFO]: JungleShade issued server command: /reload confirm
+[22:49:29] [Server thread/INFO]: JungleShade: Please note that this command is not supported and may cause issues when using some plugins.
+[22:49:29] [Server thread/INFO]: JungleShade: If you encounter any issues please use the /stop command to restart your server.
+[22:49:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:49:29] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:49:29] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.10
+[22:49:29] [Server thread/INFO]: [TabTPS] Disabling TabTPS v1.3.23
+[22:49:29] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.3.1-SNAPSHOT
+[22:49:29] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[22:49:29] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[22:49:29] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.0.13
+[22:49:29] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b107-c4a4487)
+[22:49:29] [WebSocketConnectReadThread-291/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[22:49:29] [Server thread/INFO]: Loaded 1175 recipes
+[22:49:29] [Server thread/INFO]: Loaded 1276 advancements
+[22:49:29] [Paper Async Command Builder Thread Pool - 12/ERROR]: Caught previously unhandled exception :
+[22:49:29] [Paper Async Command Builder Thread Pool - 12/ERROR]: Paper Async Command Builder Thread Pool - 12
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:542) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:501) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:480) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[22:49:30] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b107-c4a4487)
+[22:49:31] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[22:49:31] [Server thread/INFO]: [floodgate] Took 754ms to boot Floodgate
+[22:49:31] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.0.13
+[22:49:31] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.3.1-SNAPSHOT
+[22:49:31] [Server thread/WARN]: [Geyser-Spigot] Missing locale: en_
+[22:49:32] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[22:49:32] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[22:49:32] [Server thread/INFO]: [TabTPS] Loading server plugin TabTPS v1.3.23
+[22:49:32] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.10
+[22:49:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:49:32] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.0.13
+[22:49:32] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.6.
+[22:49:32] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[22:49:32] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[22:49:32] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b107-c4a4487)
+[22:49:32] [Server thread/WARN]: java.lang.IllegalArgumentException: Duplicate handler name: floodgate-init
+[22:49:32] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.checkDuplicateName(DefaultChannelPipeline.java:1055)
+[22:49:32] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.filterName(DefaultChannelPipeline.java:284)
+[22:49:32] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:160)
+[22:49:32] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:152)
+[22:49:32] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.injectClient(SpigotInjector.java:110)
+[22:49:32] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.inject(SpigotInjector.java:95)
+[22:49:32] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.FloodgatePlatform.enable(FloodgatePlatform.java:71)
+[22:49:32] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.SpigotPlugin.onEnable(SpigotPlugin.java:71)
+[22:49:32] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:287)
+[22:49:32] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[22:49:32] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[22:49:32] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:519)
+[22:49:32] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:604)
+[22:49:32] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:553)
+[22:49:32] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1094)
+[22:49:32] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:1023)
+[22:49:32] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59)
+[22:49:32] [Server thread/WARN]: 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91)
+[22:49:32] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[22:49:32] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
+[22:49:32] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
+[22:49:32] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[22:49:32] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[22:49:32] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
+[22:49:32] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448)
+[22:49:32] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:355)
+[22:49:32] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:342)
+[22:49:32] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:337)
+[22:49:32] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2202)
+[22:49:32] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2176)
+[22:49:32] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[22:49:32] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151)
+[22:49:32] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[22:49:32] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1511)
+[22:49:32] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:195)
+[22:49:32] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125)
+[22:49:32] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1488)
+[22:49:32] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1411)
+[22:49:32] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135)
+[22:49:32] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1377)
+[22:49:32] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1238)
+[22:49:32] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323)
+[22:49:32] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[22:49:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:49:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[22:49:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[22:49:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |------------------|
+[22:49:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[22:49:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[22:49:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:49:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.0.13
+[22:49:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: 8e4c6e2
+[22:49:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     This is the latest version!
+[22:49:32] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:49:33] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.3.1-SNAPSHOT
+[22:49:33] [Server thread/INFO]: [TabTPS] Enabling TabTPS v1.3.23
+[22:49:34] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.10
+[22:49:34] [Paper Async Command Builder Thread Pool - 13/ERROR]: Caught previously unhandled exception :
+[22:49:34] [Paper Async Command Builder Thread Pool - 13/ERROR]: Paper Async Command Builder Thread Pool - 13
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:542) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:507) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:480) ~[paper-1.20.6.jar:1.20.6-130-5d8e53d]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[22:49:34] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[22:49:34] [Server thread/INFO]: [Geyser-Spigot] 
+[22:49:34] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.3.1-SNAPSHOT (git-master-66f30a2)
+[22:49:34] [Server thread/INFO]: [Geyser-Spigot] 
+[22:49:34] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[22:49:41] [epollEventLoopGroup-27-1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:25565
+[22:49:41] [Server thread/INFO]: [Geyser-Spigot] Done (6.807s)! Run /geyser help for help!
+[22:49:41] [Server thread/INFO]: JungleShade: Reload complete.
+[22:49:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12201ms or 244 ticks behind
+[22:49:41] [Server thread/INFO]: Timings Reset
+[22:54:01] [Server thread/INFO]: JungleShade issued server command: /tabtps:tabtps reload
+[22:56:37] [Server thread/INFO]: JungleShade issued server command: /ping
+[22:56:39] [Server thread/INFO]: JungleShade issued server command: /ping
+[22:56:40] [Server thread/INFO]: JungleShade issued server command: /pingall
+[22:57:36] [Server thread/INFO]: JungleShade issued server command: /save-all
+[22:57:36] [Server thread/INFO]: [JungleShade: Saved the game]
+[22:57:38] [Server thread/INFO]: JungleShade issued server command: /stopsound
+[22:57:41] [Server thread/INFO]: JungleShade issued server command: /stop
+[22:57:41] [Server thread/INFO]: [JungleShade: Stopping the server]
+[22:57:41] [Server thread/INFO]: Stopping server
+[22:57:41] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.10
+[22:57:41] [Server thread/INFO]: [TabTPS] Disabling TabTPS v1.3.23
+[22:57:41] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.3.1-SNAPSHOT
+[22:57:41] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[22:57:42] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[22:57:42] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.0.13
+[22:57:42] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b107-c4a4487)
+[22:57:42] [Server thread/INFO]: Saving players
+[22:57:42] [Server thread/INFO]: JungleShade lost connection: Server closed
+[22:57:42] [Server thread/INFO]: JungleShade left the game
+[22:57:42] [WebSocketConnectReadThread-347/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[22:57:42] [Server thread/INFO]: Saving worlds
+[22:57:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:57:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[22:57:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[22:57:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[22:57:43] [Server thread/INFO]: [ChunkHolderManager] Saved 835 block chunks, 202 entity chunks, 0 poi chunks in world 'world' in 1.15s
+[22:57:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:57:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:57:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[22:57:43] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[22:57:43] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[22:57:43] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 4 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[22:57:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:57:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:57:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[22:57:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[22:57:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[22:57:44] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[22:57:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:57:44] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:57:44] [Server thread/INFO]: Flushing Chunk IO
+[22:57:44] [Server thread/INFO]: Closing Thread Pool
+[22:57:44] [Server thread/INFO]: Closing Server
