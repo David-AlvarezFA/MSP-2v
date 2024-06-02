@@ -1,25 +1,69 @@
-[17:24:04] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:24:05] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[17:24:05] [ServerMain/INFO]: Found new data pack paper, loading it automatically
-[17:24:07] [ServerMain/INFO]: Loaded 1175 recipes
-[17:24:07] [ServerMain/INFO]: Loaded 1276 advancements
-[17:24:07] [Server thread/INFO]: Starting minecraft server version 1.20.6
-[17:24:07] [Server thread/INFO]: Loading properties
-[17:24:08] [Server thread/INFO]: This server is running Paper version 1.20.6-130-master@5d8e53d (2024-06-01T14:32:53Z) (Implementing API version 1.20.6-R0.1-SNAPSHOT)
-[17:24:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:24:09] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:24:09] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
-    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
-    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[17:24:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[17:24:10] [Server thread/INFO]: Default game type: SURVIVAL
-[17:24:10] [Server thread/INFO]: Generating keypair
-[17:24:10] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:24:10] [Server thread/INFO]: Using epoll channel type
-[17:24:10] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[17:24:10] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[17:24:11] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b107-c4a4487)
-[17:24:12] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[17:24:12] [Server thread/INFO]: [floodgate] Took 1,963ms to boot Floodgate
-[17:24:12] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.3.1-SNAPSHOT
-[17:24:12] [Server thread/WARN]: [Geyser-Spigot] Missing locale: en_
+[21:37:32] [ServerMain/ERROR]: Failed to load properties from file: server.properties
+java.nio.file.NoSuchFileException: server.properties
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[?:?]
+	at java.base/java.nio.file.Files.newInputStream(Files.java:159) ~[?:?]
+	at aqf.b(SourceFile:62) ~[server-1.20.6.jar:?]
+	at aqc.a(SourceFile:140) ~[server-1.20.6.jar:?]
+	at aqd.<init>(SourceFile:12) ~[server-1.20.6.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:114) ~[server-1.20.6.jar:?]
+	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[21:37:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:37:34] [ServerMain/INFO]: No existing world data, creating new world
+[21:37:35] [ServerMain/INFO]: Loaded 1175 recipes
+[21:37:35] [ServerMain/INFO]: Loaded 1276 advancements
+[21:37:36] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[21:37:36] [Server thread/INFO]: Loading properties
+[21:37:36] [Server thread/INFO]: Default game type: SURVIVAL
+[21:37:36] [Server thread/INFO]: Generating keypair
+[21:37:36] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:37:36] [Server thread/INFO]: Using epoll channel type
+[21:37:36] [Server thread/INFO]: Preparing level "world"
+[21:37:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:37:48] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[21:37:48] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[21:37:49] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[21:37:49] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[21:37:50] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[21:37:50] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[21:37:51] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[21:37:51] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[21:37:52] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[21:37:52] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[21:37:53] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[21:37:53] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[21:37:54] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[21:37:54] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[21:37:55] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[21:37:55] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[21:37:56] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[21:37:56] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[21:37:57] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[21:37:57] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[21:37:58] [Worker-Main-2/INFO]: Preparing spawn area: 18%
+[21:37:58] [Server thread/INFO]: Time elapsed: 10399 ms
+[21:37:58] [Server thread/INFO]: Done (22.084s)! For help, type "help"
+[21:38:26] [User Authenticator #1/INFO]: UUID of player JungleShade is 93269235-9148-4f58-a7e1-e315ecc56e58
+[21:38:28] [Server thread/INFO]: JungleShade[/[0:0:0:0:0:0:0:1%0]:52340] logged in with entity id 30 at (2.5, 76.0, 8.5)
+[21:38:28] [Server thread/INFO]: JungleShade joined the game
+[21:38:53] [Server thread/INFO]: Made JungleShade a server operator
+[21:38:56] [Server thread/INFO]: [JungleShade: Set own game mode to Creative Mode]
+[21:40:39] [Server thread/INFO]: [JungleShade: Stopping the server]
+[21:40:39] [Server thread/INFO]: Stopping server
+[21:40:39] [Server thread/INFO]: Saving players
+[21:40:39] [Server thread/INFO]: JungleShade lost connection: Server closed
+[21:40:39] [Server thread/INFO]: JungleShade left the game
+[21:40:39] [Server thread/INFO]: Saving worlds
+[21:40:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:41:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21:41:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21:41:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:41:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:41:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:41:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
